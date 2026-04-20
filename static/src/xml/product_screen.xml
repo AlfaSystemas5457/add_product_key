@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<templates id="template_screen"
+    xml:space="preserve">
+    <t t-name="add_product_key.ProductScreen_inherit"
+        t-inherit="point_of_sale.ProductScreen"
+        t-inherit-mode="extension"
+        owl="1">
+        <xpath expr="//div[contains(@class,'product-list d-grid')]"
+            position="attributes">
+            <attribute name="class">product-list d-grid gap-1 gap-lg-2 px-2 pt-0 pb-2 product-list-screen</attribute>
+        </xpath>
+    </t>
+</templates>
